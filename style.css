@@ -102,3 +102,9 @@ hr {
 .creator-name {
   color: var(--white);
 }
+
+@media (min-width: 500px) {
+  .container {
+    width: 400px;
+  }
+}
