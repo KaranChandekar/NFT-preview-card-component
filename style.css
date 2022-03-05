@@ -51,3 +51,9 @@ p {
   justify-content: space-between;
   margin-bottom: 1rem;
 }
+
+.eth-container {
+  display: flex;
+  align-items: center;
+  color: var(--cyan);
+}
