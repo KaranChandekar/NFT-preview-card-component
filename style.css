@@ -69,3 +69,8 @@ p {
   align-items: center;
   color: var(--soft-blue);
 }
+
+.clock-img {
+  height: 1.1rem;
+  width: 1.1rem;
+}
