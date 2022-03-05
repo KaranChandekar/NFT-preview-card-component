@@ -28,3 +28,8 @@ body {
   padding-bottom: 0.6rem;
   border-radius: 1rem;
 }
+
+img {
+  width: 100%;
+  border-radius: 0.5rem;
+}
