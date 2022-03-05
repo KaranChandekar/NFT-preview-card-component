@@ -45,3 +45,9 @@ p {
   color: var(--soft-blue);
   line-height: 1.5rem;
 }
+
+.time-eth-container {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 1rem;
+}
