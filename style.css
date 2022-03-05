@@ -40,3 +40,8 @@ img {
   margin: 1rem 0;
   font-weight: bold;
 }
+
+p {
+  color: var(--soft-blue);
+  line-height: 1.5rem;
+}
