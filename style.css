@@ -63,3 +63,9 @@ p {
   width: 0.7rem;
   margin-right: 0.5rem;
 }
+
+.time-container {
+  display: flex;
+  align-items: center;
+  color: var(--soft-blue);
+}
