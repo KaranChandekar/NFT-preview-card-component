@@ -148,4 +148,8 @@ p {
   .container {
     width: 400px;
   }
+  
+  .card {
+    margin-top: 7rem;
+  }
 }
