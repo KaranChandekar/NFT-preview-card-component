@@ -23,7 +23,7 @@ body {
 
 .card {
   background-color: var(--very-dark-blue-card-BG);
-  margin: 3.7rem 1.1rem;
+  margin: 5rem 1.1rem;
   padding: 1.5rem;
   padding-bottom: 0.6rem;
   border-radius: 1rem;
@@ -39,6 +39,12 @@ h1 {
   font-size: 1.38rem;
   margin: 1rem 0;
   font-weight: bold;
+  cursor: pointer;
+}
+
+h1:hover {
+  color: var(--cyan);
+  transition: 1s ease;
 }
 
 p {
@@ -102,6 +108,12 @@ p {
 
 .creator-name {
   color: var(--white);
+  cursor: pointer;
+}
+
+.creator-name:hover {
+  color: var(--cyan);
+  transition: 1s ease;
 }
 
 @media (min-width: 500px) {
