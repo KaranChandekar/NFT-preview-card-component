@@ -34,7 +34,7 @@ img {
   border-radius: 0.5rem;
 }
 
-.heading {
+h1 {
   color: var(--white);
   font-size: 1.38rem;
   margin: 1rem 0;
@@ -43,19 +43,27 @@ img {
 
 p {
   color: var(--soft-blue);
-  line-height: 1.5rem;
+  line-height: 1.7rem;
+  font-size: large;
 }
 
 .time-eth-container {
   display: flex;
   justify-content: space-between;
-  margin-bottom: 1rem;
+  margin-bottom: 0.5rem;
+  border-bottom: 1px solid var(--soft-blue);
+  border-color: var(--very-dark-blue-line);
 }
 
 .eth-container {
   display: flex;
   align-items: center;
   color: var(--cyan);
+}
+
+.eth-container p {
+  color: var(--cyan);
+  font-weight: bold;
 }
 
 .eth-img {
@@ -79,16 +87,9 @@ p {
   margin-left: 0.3rem;
 }
 
-hr {
-  opacity: 0.2;
-  border-bottom: none;
-  margin: 0;
-}
-
 .creator-content {
   display: flex;
   align-items: center;
-  margin-top: 0.2rem;
 }
 
 .avatar-img {
